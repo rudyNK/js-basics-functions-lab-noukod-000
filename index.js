@@ -36,6 +36,6 @@ function distanceFromHqInBlocks(street) {
 //     default:
 //       return "cannot travel that far"
 //   };
-// 
+//
 //    return cost;
 // }
