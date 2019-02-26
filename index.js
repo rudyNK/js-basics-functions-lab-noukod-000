@@ -28,14 +28,14 @@ function distanceFromHqInBlocks(street) {
       cost = 0
       break;
     case (distance > 400 && distance <= 2000):
-//       cost = ((distance - 400) * 0.02)
-//       break;
-//     case (distance > 2000 && distance <= 2500):
-//       cost = 25
-//       break;
-//     default:
-//       return "cannot travel that far"
-//   };
-//
-//    return cost;
-// }
+      cost = ((distance - 400) * 0.02)
+      break;
+    case (distance > 2000 && distance <= 2500):
+      cost = 25
+      break;
+    default:
+      return "cannot travel that far"
+  };
+
+   return cost;
+}
